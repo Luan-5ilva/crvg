@@ -82,98 +82,73 @@ body {
 }
 
 /* --------------------- */
-.container-servicos-contatos {
+.container-elencos-sobre {
     background-color: #222222;
     padding: 80px;
     text-align: center;
 }
 
-.container-servicos-contatos .botoes-servicos-contatos {
+.container-elencos-sobre .botoes-elencos-sobre {
     padding: 60px;
     text-align: center;
 }
 
-.botoes-servicos-contatos a {
+.botoes-elencos-sobre a {
     display: block;
     max-width: 200px;
     text-decoration: none;
     font-size: 1.2em;
-    background-color: #008eb9;
+    background-color: #000000;
     color: white;
     padding: 20px 60px;
     margin: 10px auto;
     border-radius: 10px;
 }
 
-.botoes-servicos-contatos a:hover {
+.botoes-elencos-sobre a:hover {
     background-color: white;
     color: black;
 }
 
 /* --------------------- */
-.container-servicos {
-    background-color: #05192a;
-    font-size: 1.1em;
-    padding: 60px;
+
+.container-times {
+    background-color: #000000;
     overflow: auto;
 }
 
-.container-servicos h1 {
-    font-size: 3em;
-    color: white;
-    margin-bottom: 20px;
+.container-times h3{
+    margin-top: 40px;
+    text-align: center;
+
 }
 
-.container-servicos h3 {
-    color: #2097ff;
-    padding: 20px 0;
-}
-
-.container-servicos article {
-    width: 40%;
-    margin: auto;
+.container-times .elencos {
     float: center;
-}
-
-.container-servicos li {
-    margin-bottom: 20px;
-    margin-left: 50px;
-    color: white;
-}
-
-/* --------------------- */
-.container-contatos {
-    background-color: #05192a;
-    padding: 80px;
-}
-
-.container-contatos h1 {
-    font-size: 3em;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.container-contatos h3 {
-    font-size: 1.5em;
-    font-weight: 100;
+    margin: 60px auto;
+    background-color: #000000;
     width: 40%;
-    margin: auto;
-    color: white;
-    margin-bottom: 20px;
-    border: 1px solid #105088;
-    background-color: #08253f;
+    padding: 40px;
     border-radius: 10px;
-    padding: 20px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    margin-top: 10px;
+}
+.container-times .elencos .icone {
+    margin-bottom: 15px;
 }
 
-.container-contatos .contatos {
-    display: block;
-    font-size: 2em;
-    text-decoration: none;
-    color: #00a2ff;
-    margin-bottom: 20px;
+.container-times .elencos-texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #ffffff;
 }
 
+.container-times .elencos-texto-realce {
+    color: rgb(224, 41, 41);
+    font-weight: bold;
+}
 /* --------------------- */
 footer {
     text-align: center;
