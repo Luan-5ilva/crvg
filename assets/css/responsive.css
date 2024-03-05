@@ -1,0 +1,94 @@
+@media (max-width: 1120px){
+    .container-cabecalho{
+        max-width: 100%;
+    }
+    .container-cabecalho .logo{
+        height: 84px;
+        width: 84px;
+    }
+
+    .container-cabecalho h3{
+        font-size: 17px;
+    }
+
+    .container-navegacao{
+        max-width: 100%;
+        font-size: 13px;
+    }
+
+    .container-titulos{
+       
+        max-width: 100%;
+    }
+
+    .container-titulos .competicoes .icone {
+        height: 50px;
+        width: 50px;
+    }
+    
+
+    .container-titulos .competicoes-texto{
+        font-size: 11px;
+    }
+
+    .container-times{
+        width: 100%;
+    }
+
+    .container-times h3{
+        font-size: 13px;
+    }
+    .container-times .elencos{
+        width: 300px;
+        height: 100%;
+    }
+
+    .container-times .icone{
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .container-sobre h3{
+        font-size: 13px;
+        max-width: 120%;
+    }
+
+
+    .container-sobre .icone{
+        height: 20px;
+        width: 20px;
+    }
+
+    .container-sobre .sobre-texto {
+        font-size: 11px;
+
+    }
+    
+    .container-sobre .hino-texto {
+        font-size: 11px;
+
+    }
+
+    .container-elencos-sobre h1{
+        font-size: 13px;
+    }
+
+    .container-elencos-sobre .botoes-elencos-sobre {
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .botoes-elencos-sobre a {
+        display: block;
+        max-width: 100px;
+        text-decoration: none;
+        font-size: 13px;
+        background-color: #000000;
+        color: white;
+        padding: 20px 60px;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+}
