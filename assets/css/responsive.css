@@ -7,8 +7,13 @@
         width: 84px;
     }
 
-    .container-cabecalho h3{
-        font-size: 17px;
+    .container-cabecalho h3 {
+    
+        font-weight: 600;
+        font-size: 18px;
+        color: #ffffff;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: rgb(168, 17, 17);
     }
 
     .container-navegacao{
@@ -22,8 +27,8 @@
     }
 
     .container-titulos .competicoes .icone {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
     }
     
 
@@ -90,5 +95,10 @@
         padding: 20px 60px;
         margin: 10px auto;
         border-radius: 10px;
+    }
+
+    .container-sobre .audio{
+        width: 150px;
+        
     }
 }
